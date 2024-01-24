@@ -1,100 +1,149 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência XYZ</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="./src/css/reset.css">
-    
-    <link rel="stylesheet" href="./src/css/style.css">
-
-    <link rel="stylesheet" href="./src/css/responsivo.css">
-    
-    <title> One Piece Personagens Lore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/font-awesome.css">
 </head>
 
 <body>
-    <main class="personagens">
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/personagem-tony-chopper.png" alt="Tony Chopper">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Tonny Chopper</h2>
-                <p class="descricao">Esta pequena rena ganhou a habilidade de mudar sua forma e de pensar como humanos
-                    após comer a fruta Hito Hito no Mi. Chopper é um valioso membro da tripulação dos Piratas do Chapéu
-                    de Palha, atuando como médico da tripulação.</p>
-            </div>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html">
+                <h1 class="logo">Agência XYZ</h1>
+            </a>
+
+            <nav>
+                <!-- Menu Hamburguer -->
+                <input type="checkbox" name="menu-hamburguer" id="menu-hamburguer">
+
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+
+                <ul class="links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>We make cool things</h2>
+    </section>
+
+    <section class="about" id="about">
+        <div class="item">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam deserunt dolor consectetur nam
+                unde quasi. Sapiente maiores minima laborum obcaecati unde ratione et qui est animi, ipsum reiciendis
+                eius!</p>
+
+            <a href="/" class="btn-know-more">Saiba mais.</a>
         </div>
 
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/personagem-zoro.png" alt="Roronoa Zoro">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Roronoa Zoro</h2>
-                <p class="descricao">Primeiro pirata (segundo membro se contarmos com Luffy) a se juntar à tripulação de Piratas do Chapéu de Palha, Zoro aceitou o convite de Luffy após o capitão salvar sua vida.</p>
-            </div>
+        <div class="image right"></div>
+        <div class="image left"></div>
+
+        <div class="item">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veniam deserunt dolor consectetur nam
+                unde quasi. Sapiente maiores minima laborum obcaecati unde ratione et qui est animi, ipsum reiciendis
+                eius!</p>
+
+            <a href="/" class="btn-know-more">Saiba mais.</a>
         </div>
 
-        <div class="personagem selecionado">
-            <img class="imagem" src="./src/imagens/personagem-monkey-d-luffy.png" alt="Monkey D. Luffy">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Monkey D.Luffy</h2>
-                <p class="descricao">Luffy do Chapéu de Palha", como ficou conhecido, é o protagonista do anime, e o fundador e capitão da tripulação Piratas do Chapéu de Palha. Desde muito jovem, tem como seu maior sonho um dia encontrar o lendário tesouro de Gol D. Roger, para se tornar o novo Rei dos Piratas.</p>
+    </section>
+
+    <section class="services" id="services">
+        <div class="service">
+            <div class="services-info">
+                <img src="./src/images/bolinha1.png" alt="bolinha">
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo, delectus vel maxime dolor
+                    repellat, error optio nisi, sequi neque adipisci! Animi saepe odit provident vitae quam? Corrupti,
+                    repellendus iusto?</p>
             </div>
+        </div>
+        <div class="service">
+            <div class="services-info">
+                <img src="./src/images/bolinha2.png" alt="bolinha2">
+                <h3>Landing Pages</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quam eius obcaecati saepe! Ea
+                    nesciunt dolorem delectus odit. Aliquid eveniet ducimus debitis quidem vel illum architecto nulla
+                    similique ipsum esse.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="project">
+            <a href="/">
+                <img src="./src/images/tomatoes.jpg" alt="Tomatoes">
+            </a>
+        </div>
+        <div class="project">
+            <a href="/">
+                <img src="./src/images/landscape.jpg" alt="Landscape">
+            </a>
+        </div>
+        <div class="project">
+            <a href="/">
+                <img src="./src/images/plants3.jpg" alt="Plants">
+            </a>
+        </div>
+        <div class="project">
+            <a href="/">
+                <img src="./src/images/flowers.jpg" alt="Flowers">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <h4>Agência XYZ</h4>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+
+        <div class="social">
+            <a href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-pinterest"></i>
+            </a>
         </div>
 
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/personagem-nami.png" alt="Nami">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Nami</h2>
-                <p class="descricao">Uma órfã de guerra, ainda criança Nami foi adotada por Bell-mère, uma mulher da Marinha. Enquanto crescia ao lado de sua irmã adotiva Nojiko, Nami já demonstrava sua paixão por desenhar mapas, sonhando em um dia fazer o mapa de todo o mundo. </p>
-            </div>
-        </div>
-
-        <div class="personagem">
-            <img class="imagem" src="./src/imagens/personagem-sanji.png" alt="Sanji">
-            <div class="conteudo">
-                <i class="logo"></i>
-                <h2 class="nome-personagem">Sanji</h2>
-                <p class="descricao">Também conhecido como "Perna Negra" Sanji, este pirata foi o quinto a integrar a tripulação de Luffy. Suas ações como pirata lhe renderam a terceira maior recompensa entre os membros do Chapéu de Palha, além de atuar como cozinheiro oficial do grupo.</p>
-            </div>
-        </div>
-    </main>
-    <ul class="botoes">
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/tripulacao-chopper.png" alt="Tripulação Chopper">
-            </button>
-        </li>
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/tripulacao-zoro.png" alt="Tripulação Roronoa Zoro">
-            </button>
-        </li>
-        <li>
-            <button class="botao selecionado">
-                <img src="./src/imagens/tripulacao-luffy.png" alt="Tripulação Monkey D.Luffy">
-            </button>
-        </li>
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/tripulacao-nami.png" alt="Tripulação Nami">
-            </button>
-        </li>
-        <li>
-            <button class="botao">
-                <img src="./src/imagens/tripulacao-sanji.png" alt="Tripulação Sanji">
-            </button>
-        </li>
-    </ul>
-    <script src="./src/js/index.js"></script>
+    </footer>
 </body>
 
 </html>
